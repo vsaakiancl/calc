@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-02-PLAN.md — Math Engine evaluate + format
-last_updated: "2026-04-09T15:58:58.959Z"
+stopped_at: Completed 01-03-PLAN.md — Calculator State Machine (types, buttons, useCalculator hook)
+last_updated: "2026-04-09T16:06:14.786Z"
 last_activity: 2026-04-09 — Plan 01-01 complete (Vite scaffold + Tailwind v4 + Vitest)
 progress:
   total_phases: 3
   completed_phases: 0
   total_plans: 4
-  completed_plans: 2
+  completed_plans: 3
   percent: 8
 ---
 
@@ -51,6 +51,7 @@ Progress: [█░░░░░░░░░] 8%
 
 *Updated after each plan completion*
 | Phase 01-core-engine-basic-ui P02 | 15 | 2 tasks | 4 files |
+| Phase 01-core-engine-basic-ui P03 | 8 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -64,6 +65,9 @@ Recent decisions affecting current work:
 - [Phase 01-02]: Named import { evaluate as mathEvaluate } from mathjs saves ~180KB bundle
 - [Phase 01-02]: toPrecision(12) for IEEE 754 noise removal in formatResult()
 - [Phase 01-02]: Post-evaluate Infinity check: mathjs returns Infinity for 1/0, converted to Error throw
+- [Phase 01-03]: openParenCount adjusted atomically inside reducer cases — no derived state at render time
+- [Phase 01-03]: ButtonConfig embeds Action directly so ButtonGrid dispatches button.action with zero conditional logic
+- [Phase 01-03]: MAX_EXPRESSION_LENGTH=200 caps silently (returns current state) — no error shown to user
 
 ### Pending Todos
 
@@ -75,6 +79,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-09T15:58:58.957Z
-Stopped at: Completed 01-02-PLAN.md — Math Engine evaluate + format
+Last session: 2026-04-09T16:06:14.784Z
+Stopped at: Completed 01-03-PLAN.md — Calculator State Machine (types, buttons, useCalculator hook)
 Resume file: None

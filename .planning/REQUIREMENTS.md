@@ -23,10 +23,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Display
 
-- [ ] **DISP-01**: User can see the full expression being typed in a formula bar
-- [ ] **DISP-02**: User can see the computed result clearly separated from the input
-- [ ] **DISP-03**: User can clear the entire expression with AC button
-- [ ] **DISP-04**: User can delete the last character with DEL/backspace button
+- [x] **DISP-01**: User can see the full expression being typed in a formula bar
+- [x] **DISP-02**: User can see the computed result clearly separated from the input
+- [x] **DISP-03**: User can clear the entire expression with AC button
+- [x] **DISP-04**: User can delete the last character with DEL/backspace button
 
 ### History
 
@@ -36,7 +36,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Input
 
-- [ ] **INPT-01**: User can input expressions using on-screen buttons
+- [x] **INPT-01**: User can input expressions using on-screen buttons
 - [ ] **INPT-02**: User can input expressions using keyboard (digits, operators, Enter, Escape, Backspace)
 - [ ] **INPT-03**: Keyboard input does not interfere with browser shortcuts (Ctrl+R, Ctrl+C, etc.)
 
@@ -87,11 +87,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CORE-02 | Phase 1 | Complete |
 | CORE-03 | Phase 1 | Complete |
 | CORE-04 | Phase 1 | Complete |
-| DISP-01 | Phase 1 | Pending |
-| DISP-02 | Phase 1 | Pending |
-| DISP-03 | Phase 1 | Pending |
-| DISP-04 | Phase 1 | Pending |
-| INPT-01 | Phase 1 | Pending |
+| DISP-01 | Phase 1 | Complete |
+| DISP-02 | Phase 1 | Complete |
+| DISP-03 | Phase 1 | Complete |
+| DISP-04 | Phase 1 | Complete |
+| INPT-01 | Phase 1 | Complete |
 | TRIG-01 | Phase 2 | Pending |
 | TRIG-02 | Phase 2 | Pending |
 | TRIG-03 | Phase 2 | Pending |
