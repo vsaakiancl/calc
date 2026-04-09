@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-01-PLAN.md
-last_updated: "2026-04-09T15:58:49.528Z"
+stopped_at: Completed 01-02-PLAN.md — Math Engine evaluate + format
+last_updated: "2026-04-09T15:58:58.959Z"
 last_activity: 2026-04-09 — Plan 01-01 complete (Vite scaffold + Tailwind v4 + Vitest)
 progress:
   total_phases: 3
@@ -61,6 +61,9 @@ Recent decisions affecting current work:
 
 - Project init: React + Vite chosen (user preference); glassmorphism design language locked in; trig-first for scientific functions
 - 01-01: Vitest config kept separate from vite.config.ts; Tailwind v4 needs no config file, only @import in CSS
+- [Phase 01-02]: Named import { evaluate as mathEvaluate } from mathjs saves ~180KB bundle
+- [Phase 01-02]: toPrecision(12) for IEEE 754 noise removal in formatResult()
+- [Phase 01-02]: Post-evaluate Infinity check: mathjs returns Infinity for 1/0, converted to Error throw
 
 ### Pending Todos
 
@@ -72,6 +75,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-09T17:57:00.000Z
-Stopped at: Completed 01-01-PLAN.md
-Resume file: .planning/phases/01-core-engine-basic-ui/01-02-PLAN.md
+Last session: 2026-04-09T15:58:58.957Z
+Stopped at: Completed 01-02-PLAN.md — Math Engine evaluate + format
+Resume file: None
