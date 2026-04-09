@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-03-PLAN.md — Calculator State Machine (types, buttons, useCalculator hook)
-last_updated: "2026-04-09T16:06:14.786Z"
+stopped_at: "Checkpoint: 01-04 Task 3 awaiting human verification at localhost:5173"
+last_updated: "2026-04-09T16:07:41.469Z"
 last_activity: 2026-04-09 — Plan 01-01 complete (Vite scaffold + Tailwind v4 + Vitest)
 progress:
   total_phases: 3
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 4
-  completed_plans: 3
+  completed_plans: 4
   percent: 8
 ---
 
@@ -68,6 +68,8 @@ Recent decisions affecting current work:
 - [Phase 01-03]: openParenCount adjusted atomically inside reducer cases — no derived state at render time
 - [Phase 01-03]: ButtonConfig embeds Action directly so ButtonGrid dispatches button.action with zero conditional logic
 - [Phase 01-03]: MAX_EXPRESSION_LENGTH=200 caps silently (returns current state) — no error shown to user
+- [Phase 01-core-engine-basic-ui]: No Tailwind classes on components in Phase 1 — inline styles only; glassmorphism styling deferred to Phase 3
+- [Phase 01-core-engine-basic-ui]: ButtonGrid props: openParenCount + dispatch only; no internal state; data-variant on buttons for Phase 3 CSS hooks
 
 ### Pending Todos
 
@@ -79,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-09T16:06:14.784Z
-Stopped at: Completed 01-03-PLAN.md — Calculator State Machine (types, buttons, useCalculator hook)
+Last session: 2026-04-09T16:07:29.519Z
+Stopped at: Checkpoint: 01-04 Task 3 awaiting human verification at localhost:5173
 Resume file: None

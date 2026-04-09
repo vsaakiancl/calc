@@ -6,7 +6,7 @@ Three phases take this from nothing to a polished, working scientific calculator
 
 ## Phases
 
-- [ ] **Phase 1: Core Engine & Basic UI** - Arithmetic expression evaluation with a functional display and on-screen input
+- [x] **Phase 1: Core Engine & Basic UI** - Arithmetic expression evaluation with a functional display and on-screen input (completed 2026-04-09)
 - [ ] **Phase 2: Trigonometry & Keyboard** - Scientific trig functions with DEG/RAD toggling and full keyboard input
 - [ ] **Phase 3: History & Glassmorphism** - Scrollable calculation history, localStorage persistence, and polished glassmorphism design
 
@@ -60,6 +60,6 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Core Engine & Basic UI | 3/4 | In Progress|  |
+| 1. Core Engine & Basic UI | 4/4 | Complete   | 2026-04-09 |
 | 2. Trigonometry & Keyboard | 0/? | Not started | - |
 | 3. History & Glassmorphism | 0/? | Not started | - |
