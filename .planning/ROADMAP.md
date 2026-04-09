@@ -22,7 +22,13 @@ Three phases take this from nothing to a polished, working scientific calculator
   3. User sees a clear error message for invalid expressions (e.g., unclosed parentheses, double operators)
   4. Floating-point results display cleanly without trailing noise (0.1+0.2 shows 0.3, not 0.30000000000000004)
   5. User can clear the full expression with AC and delete the last character with DEL/Backspace
-**Plans**: TBD
+**Plans**: 4 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Vite scaffold, dependency install, Tailwind v4 + Vitest configuration
+- [ ] 01-02-PLAN.md — Math engine: evaluate.ts + format.ts with TDD unit tests (CORE-01–04)
+- [ ] 01-03-PLAN.md — Types, button config, useCalculator hook with TDD reducer tests (DISP-01–04, INPT-01)
+- [ ] 01-04-PLAN.md — React components (DisplayPanel, ButtonGrid, Button, CalculatorShell) wired to hook + visual checkpoint
 
 ### Phase 2: Trigonometry & Keyboard
 **Goal**: Users can perform scientific trig calculations and drive the calculator entirely from the keyboard
@@ -54,6 +60,6 @@ Three phases take this from nothing to a polished, working scientific calculator
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Core Engine & Basic UI | 0/? | Not started | - |
+| 1. Core Engine & Basic UI | 0/4 | Not started | - |
 | 2. Trigonometry & Keyboard | 0/? | Not started | - |
 | 3. History & Glassmorphism | 0/? | Not started | - |
