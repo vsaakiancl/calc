@@ -60,6 +60,6 @@ Plans:
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Core Engine & Basic UI | 0/4 | Not started | - |
+| 1. Core Engine & Basic UI | 2/4 | In Progress|  |
 | 2. Trigonometry & Keyboard | 0/? | Not started | - |
 | 3. History & Glassmorphism | 0/? | Not started | - |

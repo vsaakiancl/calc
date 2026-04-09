@@ -9,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Core Engine
 
-- [ ] **CORE-01**: User can type and evaluate arithmetic expressions (+, -, *, /)
-- [ ] **CORE-02**: User can use parentheses and expressions respect PEMDAS order of operations
-- [ ] **CORE-03**: User sees a clear error message for invalid expressions (e.g., `2*/3`, unclosed parens)
-- [ ] **CORE-04**: Floating-point results display cleanly (no `0.30000000000000004`)
+- [x] **CORE-01**: User can type and evaluate arithmetic expressions (+, -, *, /)
+- [x] **CORE-02**: User can use parentheses and expressions respect PEMDAS order of operations
+- [x] **CORE-03**: User sees a clear error message for invalid expressions (e.g., `2*/3`, unclosed parens)
+- [x] **CORE-04**: Floating-point results display cleanly (no `0.30000000000000004`)
 
 ### Trigonometry
 
@@ -83,10 +83,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CORE-01 | Phase 1 | Pending |
-| CORE-02 | Phase 1 | Pending |
-| CORE-03 | Phase 1 | Pending |
-| CORE-04 | Phase 1 | Pending |
+| CORE-01 | Phase 1 | Complete |
+| CORE-02 | Phase 1 | Complete |
+| CORE-03 | Phase 1 | Complete |
+| CORE-04 | Phase 1 | Complete |
 | DISP-01 | Phase 1 | Pending |
 | DISP-02 | Phase 1 | Pending |
 | DISP-03 | Phase 1 | Pending |
