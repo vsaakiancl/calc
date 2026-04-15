@@ -98,20 +98,24 @@ Which phases cover which requirements. Updated during roadmap creation.
 | TRIG-04 | Phase 2 | Pending |
 | INPT-02 | Phase 2 | Pending |
 | INPT-03 | Phase 2 | Pending |
-| HIST-01 | Phase 3 | Pending |
-| HIST-02 | Phase 3 | Pending |
-| HIST-03 | Phase 3 | Pending |
 | VISU-01 | Phase 3 | Pending |
 | VISU-02 | Phase 3 | Pending |
 | VISU-03 | Phase 3 | Pending |
 | VISU-04 | Phase 3 | Pending |
 | VISU-05 | Phase 3 | Pending |
+| HIST-01 | Phase 4 | Pending |
+| HIST-02 | Phase 4 | Pending |
+| HIST-03 | Phase 4 | Pending |
+| MATH-01 | Phase 5 | Pending |
+| MATH-02 | Phase 5 | Pending |
+| MATH-03 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 23 total
-- Mapped to phases: 23
-- Unmapped: 0 ✓
+- v2 requirements pulled into Phase 5: 3 (MATH-01, MATH-02, MATH-03)
+- Mapped to phases: 26
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-09*
-*Last updated: 2026-04-09 after roadmap creation*
+*Last updated: 2026-04-15 after roadmap restructure for parallel work*
